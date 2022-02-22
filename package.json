@@ -1,0 +1,13 @@
+{
+	"name": "dom_projects",
+	"version": "0.1.0",
+	"main": "src/app/App.js",
+	"scripts": {
+		"start": "parcel -p 80 ./src/index.html",
+		"build": "parcel build"
+	},
+
+	"devDependencies": {
+		"parcel": "^2.3.2"
+	}
+}
