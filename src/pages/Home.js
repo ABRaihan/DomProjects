@@ -1,4 +1,5 @@
 import DOMComponent from "../utility/componentBuilder.js";
+import PrimaryButton from '../components/PrimaryButton.js'
 const Home = () => {
 	return DOMComponent([
 		{
@@ -26,7 +27,7 @@ const Home = () => {
 								name: "img",
 								attrs: {
 									class: "info__image",
-									src: "",
+									src: "https://tunis.ibthemespro.com/img/hero/img-mobile.jpg",
 									alt: "A. B. Raihan"
 								}
 							}
@@ -39,6 +40,9 @@ const Home = () => {
 							child: [
 								{
 									child: "I'm steve milner",
+								},
+								{
+									name: "br"
 								},
 								{
 									name: "span",
@@ -55,6 +59,10 @@ const Home = () => {
 								class: "info__details__text"
 							},
 							child: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis provident tenetur quas! Cumque, illum sint! Molestiae repellendus velit eaque minus?"
+						},
+						{
+							name: "<> </>",
+							child: PrimaryButton()
 						}
 					],
 				},
