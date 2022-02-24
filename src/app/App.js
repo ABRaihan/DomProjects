@@ -5,4 +5,4 @@ const App = () => {
         Home()
     ]
 }
-document.getElementById("root").append(...App());
+export default App;

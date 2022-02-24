@@ -1,5 +1,6 @@
 import DOMComponent from "../utility/componentBuilder.js";
-import PrimaryButton from '../components/PrimaryButton.js'
+import PrimaryButton from '../components/PrimaryButton.js';
+import profileImg from '../assets/images/profile.jpg';
 const Home = () => {
 	return DOMComponent([
 		{
@@ -27,7 +28,7 @@ const Home = () => {
 								name: "img",
 								attrs: {
 									class: "info__image",
-									src: "https://tunis.ibthemespro.com/img/hero/img-mobile.jpg",
+									src: profileImg,
 									alt: "A. B. Raihan"
 								}
 							}
@@ -39,7 +40,7 @@ const Home = () => {
 							},
 							child: [
 								{
-									child: "I'm steve milner",
+									child: "I'm A. B. Raihan",
 								},
 								{
 									name: "br"
@@ -49,7 +50,7 @@ const Home = () => {
 									attrs: {
 										class: "info__heading__split",
 									},
-									child: "Web Designer",
+									child: "Frontend Web Application Developer",
 								},
 							],
 						},
@@ -58,7 +59,7 @@ const Home = () => {
 							attrs: {
 								class: "info__details__text"
 							},
-							child: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis provident tenetur quas! Cumque, illum sint! Molestiae repellendus velit eaque minus?"
+							child: "Hey, smile first cause now you are going to know about me. My name is A. B. Raihan. I am studying DIU department of CSE and also a frontend web application developer. I lead my life in the simplest way. I like to play with problems. It makes me active and helps me to think differently."
 						},
 						{
 							name: "<> </>",

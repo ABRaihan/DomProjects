@@ -23,6 +23,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #ffb400;
+	max-width: 550px;
 }
 .info__heading__split{
     color: #ffffff;
