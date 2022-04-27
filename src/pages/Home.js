@@ -1,6 +1,7 @@
 import DOMComponent from "../utility/componentBuilder.js";
 import PrimaryButton from '../components/PrimaryButton.js';
 import profileImg from '../assets/images/profile.jpg';
+// const anonna = new URL("../anonna.pdf", import.meta.url);
 const Home = () => {
 	return DOMComponent([
 		{
@@ -65,6 +66,15 @@ const Home = () => {
 							name: "<> </>",
 							child: PrimaryButton()
 						}
+						// {
+						// 	name: "a",
+						// 	attrs: {
+						// 		class: "download__pdf",
+						// 		href: anonna,
+						// 		download: "myPdf.pdf"
+						// 	},
+						// 	child: "A PDF File"
+						// }
 					],
 				},
 			},

@@ -4,7 +4,7 @@ const PrimaryButton = () => {
         attrs: {
             class: "primary__btn"
         },
-        child: "DOM Projects"
+        child: "Projects"
 	};
 };
 export default PrimaryButton;

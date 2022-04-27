@@ -1,13 +1,16 @@
 {
 	"name": "dom_projects",
 	"version": "0.1.0",
-	"main": "./src/index.js",
-	"scripts": {
-		"start": "parcel -p 80 ./index.html",
-		"build": "parcel build ./index.html"
+	"source": "index.html",
+	"engines": {
+		"node": "10"
 	},
-
+	"scripts": {
+		"start": "parcel -p 8080",
+		"build": "parcel build index.html --dist-dir build --public-url ./"
+	},
 	"devDependencies": {
-		"parcel": "^2.3.2"
-	}
+		"parcel": "^2.5.0"
+	},
+	"browserslist": "> 0.5%, last 2 versions, not dead"
 }
